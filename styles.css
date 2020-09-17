@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    
+}
+
+header {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.wrapp {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 0 0 15px 0;
+    color: hsl(234, 12%, 34%);
+    font-size: 2rem; 
+}
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+header p {
+    color: hsl(229, 6%, 66%);
+    line-height: 1.7;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    margin: 30px 30px;
+}
+
+.card {
+    color: hsl(234, 12%, 34%);
+    width: 350px;
+    height: 250px;
+    margin-top: 30px;
+    padding: 0 26px;
+    border-radius: 5px;
+    font-size: 1.33rem;
+    box-shadow: 0 8px 18px 3px rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    background: white;
+}
+
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 55%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+img {
+    float: right;
+    margin-top: 30px;
+}
+
+.card-p{
+    margin: 0;
+    float: left;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.9rem;
+    line-height: 22px;
+    
+}
+
+h4 {
+    float: left;
+}
+
+@media(max-width: 1100px){
+    header{
+        padding: 0 50px;
+        font-size: 1.1rem;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .karma {
+        margin-top: 90px;
+    }
+}
+
